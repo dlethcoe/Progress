@@ -1,0 +1,18 @@
+so maybe the thought for taking form data
+
+Open a file,
+read the array/hash
+take new array/ hash and save it
+out put the hash just for shits  and giggles to verfiy anything is done
+print loop
+search
+
+
+in another method just open file read and out put it to see that it is infact there.
+
+
+
+for state, abbrev in states
+    puts "%s state is abbreviated %s and has city %s" % [
+        state, abbrev, cities[abbrev]]
+end

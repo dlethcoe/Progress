@@ -1,0 +1,6 @@
+require 'sequel'
+
+DB = Sequel.sqlite('blog.db')
+test =DB[:blogdata]
+data = test.first
+puts data.inspect

@@ -1,0 +1,116 @@
+ "<!DOCTYPE html>
+    <html>
+        <head>
+		     <title>Test Index </title>
+		</head>
+		
+		
+		<!-- dump of variables to see if the right info gets passed quickly -->
+		<body>	
+		
+		
+		<h1><%= @post1 %></h1>
+		<h1><%= @post3 %></h1>
+		<h2><%= @post2 %><%= @post3 %></h2>
+		
+		
+        </body>
+		  
+		
+		
+	
+	</html>"
+
+
+		
+	<body>
+
+<div id="container" style="width:500px">
+
+<!-- Contains frame with post title in it -->
+<div id="header" style="background-color:#FFA500;">
+<h1 style="margin-bottom:0;"><!-- <%= @title %> --></h1></div>
+
+<!-- Contains frame with links to post and a test page. Very unsophisticated -->
+<div id="menu" style="background-color:#FFD700;height:200px;width:100px;float:left;">
+<b>Menu</b><br>
+<a href="firstpage.erb"> New blog post <br />
+<a href="newpage.erb"> Usless test page<br />
+</div>
+
+<!-- Contains frame with post body -->
+<div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
+<!-- <%= @body %> --></div>
+
+
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+Copyright © Custodial Design</div>
+
+
+
+
+</div>
+<div id="container" style="width:500px">
+
+<!-- Contains frame with post title in it -->
+<div id="header" style="background-color:#FFA500;">
+<h1 style="margin-bottom:0;"><!-- <%= @title %> --></h1></div>
+
+<!-- Contains frame with links to post and a test page. Very unsophisticated -->
+<div id="menu" style="background-color:#FFD700;height:200px;width:100px;float:left;">
+<b>Menu</b><br>
+<a href="firstpage.erb"> New blog post <br />
+<a href="newpage.erb"> Usless test page<br />
+</div>
+
+<!-- Contains frame with post body -->
+<div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
+<!-- <%= @body %> --></div>
+
+
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+Copyright © Custodial Design</div>
+
+
+
+
+</div>
+<div id="container" style="width:500px">
+
+<!-- Contains frame with post title in it -->
+<div id="header" style="background-color:#FFA500;">
+<h1 style="margin-bottom:0;"><!-- <%= @title %> --></h1></div>
+
+
+<!-- Contains frame with links to post and a test page. Very unsophisticated -->
+<div id="menu" style="background-color:#FFD700;height:200px;width:100px;float:left;">
+<b>Menu</b><br>
+<a href="firstpage.erb"> New blog post <br />
+<a href="newpage.erb"> Usless test page<br />
+</div>
+
+
+<!-- Contains frame with post body -->
+<div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
+<!-- <%= @body %> --></div>
+
+
+<!-- Button with hidden value to pass which post to edit -->
+<form method="post" action="">
+    <INPUT type="hidden" name="body" value="edit"><BR>
+<input type="submit" value="Edit Post" />
+</form>
+<!-- Second Button with hidden value to pass which post to delete -->
+<form method="post" action="">
+    <INPUT type="hidden" name="body" value="delete"><BR>
+<input type="submit" value="Delete Post" />
+</form>
+
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+Copyright © Custodial Design</div>
+
+</div>
+</body>
+</html><h1>Index</h1>
+<a href="firstpage.erb"> Database entry <br /></a>
+<a href="newpage.erb"> Usless test page</a>
